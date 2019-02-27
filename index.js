@@ -1,5 +1,16 @@
-//var cool = require("cool-ascii-faces");
+var cool = require("cool-ascii-faces");
+var express = require("express");
 
-var cool = require("dino-graph");
+var port = process.env.PORT || 8080;
 
-console.log(cool());
+var app = express();
+
+app.get("/",(request, response) => {
+    response.send(cool());
+    console.log("New request received");
+});
+
+// Arrancamos el server
+app.listen(port);
+
+

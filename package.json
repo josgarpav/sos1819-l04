@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "cool-ascii-faces": "^1.3.4",
-    "dino-graph": "^1.11.2"
+    "dino-graph": "^1.11.2",
+    "express": "^4.16.4"
   }
 }

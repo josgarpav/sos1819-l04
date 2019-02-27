@@ -4,3 +4,20 @@
     4  npm start
     5  history
     6  history > commands.txt
+    7  npm install dino-graph --save
+    8  npm start
+    9  git init
+   10  git remote add origin https://github.com/josgarpav/sos1819-l04.git
+   11  git push -u origin master
+   12  ls
+   13  touch .gitignore
+   14  ls -a
+   15  git add .
+   16  git commit -m "First version"
+   17  git push -u origin master
+   18  ls
+   19  npm install express
+   20  npm install express --save
+   21  set | gret PORT
+   22  set | grep PORT
+   23  history > commands.txt
